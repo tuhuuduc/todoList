@@ -1,0 +1,45 @@
+@media (min-width: 64em) {
+    
+}
+
+@media (max-width: 63.9375em) {
+    .container{
+        background-color: #fff;
+        width: 80%;
+        margin: 100px auto;
+        border-radius: 6px;
+    }
+    .todos li i{
+        display: flex; 
+        padding-left: 5px;
+        height: 25px;
+    }
+}
+
+@media (max-width: 46.3125em) and(min-width:63.9375em) {
+    .container{
+        background-color: #fff;
+        width: 80%;
+        margin: 100px auto;
+        border-radius: 6px;
+    }
+    .todos li i{
+        display: flex; 
+        padding-left: 5px;
+        height: 25px;
+    }
+}
+
+@media (max-width: 46.25em) {
+	.container{
+        background-color: #fff;
+        width: 90%;
+        margin: 100px auto;
+        border-radius: 6px;
+    }
+    .todos li i{
+        display: flex; 
+        padding-left: 5px;
+        height: 25px;
+    }
+}
